@@ -1,10 +1,10 @@
-import Head1 from "./Head1";
+import MainHeading from "./MainHeading";
 import BlogUi from "./ui/BlogUi";
 
 const BlogCom = () => {
   return (
     <>
-      <Head1 title="Blogs" pageName="Blogs" />
+      <MainHeading title="Blogs" pageName="Blogs" />
       <BlogUi />
     </>
   );

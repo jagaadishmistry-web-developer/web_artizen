@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaRegCircleDot } from "react-icons/fa6";
 
-const Head1 = (props) => {
+const MainHeading = (props) => {
   return (
     <>
       <div className="bg-[url('/about.png')] bg-cover bg-center">
@@ -25,4 +25,4 @@ const Head1 = (props) => {
     </>
   );
 };
-export default Head1;
+export default MainHeading;

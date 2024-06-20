@@ -3,12 +3,12 @@ import Image from "next/image";
 import CountingPart from "./ui/CountingPart";
 import ImagePaetUi from "./ui/ImagePaetUi";
 import QuestionsPartUi from "./ui/QuestionsPartUi";
-import Head1 from "./Head1";
+import MainHeading from "./MainHeading";
 
 const TestimonialsCom = () => {
   return (
     <>
-      <Head1 title="Testimonials" pageName="Testimonials" />
+      <MainHeading title="Testimonials" pageName="Testimonials" />
       <div className="bg-[url('/teatimoniBg.png')] bg-cover bg-center h-full w-full">
         <div className="container mx-auto px-7 text-white pt-[90px] pb-[45px]">
           <div className="flex flex-col items-center gap-6">

@@ -1,10 +1,10 @@
-import Head1 from "./Head1";
+import MainHeading from "./MainHeading";
 import ContactUi from "./ui/ContactUi";
 
 const ContactCom = () => {
   return (
     <>
-      <Head1 title="Contact" pageName="Contact" />
+      <MainHeading title="Contact" pageName="Contact" />
       <ContactUi />
     </>
   );

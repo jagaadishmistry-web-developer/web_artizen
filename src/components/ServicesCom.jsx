@@ -1,4 +1,4 @@
-import Head1 from "./Head1";
+import MainHeading from "./MainHeading";
 import CountingPart from "./ui/CountingPart";
 import HowWeDataUi from "./ui/HowWeDataUi";
 import OurServicesUi from "./ui/OurServicesUi";
@@ -9,7 +9,7 @@ import VideoPart2 from "./ui/VideoPart2";
 const ServicesCom = () => {
   return (
     <>
-      <Head1 title="Services" pageName="Services" />
+      <MainHeading title="Services" pageName="Services" />
       <OurServicesUi />
       <CountingPart />
       <VideoPart2 />

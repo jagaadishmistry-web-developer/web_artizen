@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import ImagePaetUi from "./ui/ImagePaetUi";
 import QuestionsPartUi from "./ui/QuestionsPartUi";
-import Head1 from "./Head1";
+import Head1 from "./MainHeading";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

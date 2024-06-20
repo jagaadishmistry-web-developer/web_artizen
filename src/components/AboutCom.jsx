@@ -2,7 +2,7 @@ import Image from "next/image";
 import { RiCheckboxMultipleLine } from "react-icons/ri";
 import aboutImg from "../../public/aboutImg.png";
 import aboutImg3 from "../../public/aboutImg3.png";
-import Head1 from "./head1";
+import MainHeading from "./MainHeading";
 import ContactUi from "./ui/ContactUi";
 import CountingPart from "./ui/CountingPart";
 import CourseUi from "./ui/CourseUi";
@@ -12,7 +12,7 @@ import VideoPart from "./ui/VideoPart";
 const AboutCom = () => {
   return (
     <>
-      <Head1 title="About Us" pageName="About Us" />
+      <MainHeading title="About Us" pageName="About Us" />
       <div className="container mx-auto px-7 lg:py-0 py-[55px]">
         <div className="grid lg:grid-cols-2 xl:py-[100px] py-[70px] place-content-center xl:gap-16 lg:gap-10 md:gap-20 gap-16">
           <div className="col-span-1 flex items-center justify-center">
