@@ -36,7 +36,6 @@ const ModernTechnology = () => {
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                   </p>
-                  {/* ------ Counting part-------  */}
                   <div className="">
                     <div className="grid md:grid-cols-2 grid-cols-1 2xl:gap-12 xl:gap-4 lg:gap-2 md:gap-10 gap-8 md:py-0 py-6">
                       {Home2IconData.map((h2Data) => {
@@ -71,7 +70,6 @@ const ModernTechnology = () => {
                         );
                       })}
                     </div>
-                    {/* ------------------ */}
                     <div className="flex justify-center lg:justify-start mb-16 2xl:mt-14 xl:mt-7 lg:mt-6 mt-8">
                       <button className="border xl:py-[9px] lg:py-[5px] md:py-[8px] py-[8px] xl:px-[32px] lg:px-[20px] md:px-[30px] px-[28px] rounded-full hover:scale-105 duration-300 border-[#5A12F6] text-[#5A12F6]">
                         Get Started

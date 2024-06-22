@@ -21,7 +21,6 @@ const Home2NavBar = () => {
 
   return (
     <>
-      {/* LG NavBar */}
       <div className="flex lg:flex-col border-b border-[#8B59F9]">
         <div className="container mx-auto px-7 grid grid-cols-4 items-center xl:h-[100px] lg:h-[90px] md:h-[75px] h-[55px]">
           <div className="col-span-1">
@@ -68,7 +67,6 @@ const Home2NavBar = () => {
                 </Link>
               )}
             </div>
-
             <Link
               href={"/aboutUs"}
               className={` ${
@@ -115,9 +113,6 @@ const Home2NavBar = () => {
             </Link>
           </div>
         </div>
-        {/* LG NavBar End  */}
-
-        {/* Mobile NavBar  */}
         <div
           onClick={() => setNav(!nav)}
           className="cursor-pointer z-50 lg:hidden pt-3 md:pt-7 mr-6">
@@ -128,9 +123,7 @@ const Home2NavBar = () => {
           )}
         </div>
         {nav && (
-          <div
-            // onClick={() => setNav(false)}
-            className="absolute md:top-[90px] top-[70px] text-center flex items-center justify-center left-[25px] md:left-[30px] right-[25px] md:right-[30px] bg-[#5A12F6] h-[450px] md:h-[400px]">
+          <div className="absolute md:top-[90px] top-[70px] text-center flex items-center justify-center left-[25px] md:left-[30px] right-[25px] md:right-[30px] bg-[#5A12F6] h-[450px] md:h-[400px]">
             <div className="text-xl font-medium text-white gap-2">
               <div className="grid gap-10 place-items-center text-[15px]">
                 <div className="grid gap-4">

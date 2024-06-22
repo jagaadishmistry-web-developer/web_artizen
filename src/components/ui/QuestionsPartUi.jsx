@@ -23,13 +23,11 @@ const QuestionsPartUi = () => {
                   </div>
                 </Link>
               </div>
-              {/* --------- question part start  -----------  */}
               <div className="xl:h-12 text-white"></div>
               {seen.map((qqData) => {
                 return <Question key={qqData.id} {...qqData} />;
               })}
             </div>
-            {/* --------- question part End -----------  */}
             <div className="flex flex-col 2xl:gap-10 xl:gap-9 lg:gap-6 gap-8 xl:text-[16px] lg:text-[13px] md:text-[15px] text-[13px] 2xl:h-[780px] xl:h-[700px] lg:h-[550px]">
               <div className="h-full w-full bg-white grid place-items-center gap-3 2xl:px-12 xl:px-10 lg:px-6 px-4 xl:py-8 lg:py-5 py-7">
                 <div className="flex flex-col items-center xl:gap-6 lg:gap-3 gap-5">

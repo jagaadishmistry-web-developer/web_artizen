@@ -112,9 +112,6 @@ const NavBar = () => {
             </Link>
           </div>
         </div>
-        {/* LG NavBar End  */}
-
-        {/* Mobile NavBar  */}
         <div
           onClick={() => setNav(!nav)}
           className="cursor-pointer z-50 lg:hidden pt-3 md:pt-6">
@@ -125,9 +122,7 @@ const NavBar = () => {
           )}
         </div>
         {nav && (
-          <div
-            // onClick={() => setNav(false)}
-            className="absolute md:top-[150px] top-[130px] text-center flex items-center justify-center left-[25px] md:left-[30px] right-[25px] md:right-[30px] bg-[#5A12F6] h-[450px] md:h-[450px]">
+          <div className="absolute md:top-[150px] top-[130px] text-center flex items-center justify-center left-[25px] md:left-[30px] right-[25px] md:right-[30px] bg-[#5A12F6] h-[450px] md:h-[450px]">
             <div className="text-xl font-medium text-white gap-2">
               <div className="grid gap-10 place-items-center text-[15px]">
                 <div className="grid gap-4">

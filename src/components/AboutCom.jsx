@@ -112,8 +112,6 @@ const AboutCom = () => {
               </button>
             </div>
           </div>
-
-          {/* -------------  */}
           <div className="col-span-1 flex items-center justify-center">
             <Image
               src={aboutImg3}
@@ -126,12 +124,10 @@ const AboutCom = () => {
           </div>
         </div>
       </div>
-      {/* -----------------  */}
       <CountingPart />
       <VideoPart />
       <OurSortTeam />
       <ContactUi />
-      {/* --------  */}
     </>
   );
 };

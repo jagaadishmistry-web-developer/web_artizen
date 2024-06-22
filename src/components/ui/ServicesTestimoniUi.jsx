@@ -76,8 +76,6 @@ const ServicesTestimoniUi = () => {
               How Clients React
             </p>
           </div>
-
-          {/* Card  */}
           <div className="py-16">
             <Slider {...settings}>
               {testimoniData.slice(0, 3).map((teData) => {
@@ -123,9 +121,7 @@ const ServicesTestimoniUi = () => {
                 );
               })}
             </Slider>
-            {/* image  */}
             <ImagePaetUi />
-            {/* image end  */}
           </div>
         </div>
       </div>

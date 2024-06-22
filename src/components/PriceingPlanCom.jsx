@@ -26,7 +26,6 @@ const PriceingPlanCom = () => {
           </div>
         </div>
       </div>
-      {/* ----------------  */}
       <OurPricingUi />
       <OurSortTeam />
       <IconPart />

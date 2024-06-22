@@ -14,7 +14,6 @@ const VideoPart = () => {
         videoId="asUN0c94xnY"
         onClose={() => setOpen(false)}
       />
-      {/* video  */}
       <div className="bg-[url('/countBg.png')] bg-cover bg-center md:py-0 py-14">
         <div className="container mx-auto px-7 text-white">
           <div className="grid md:grid-cols-2 grid-cols-1 2xl:h-[600px]">
@@ -35,7 +34,6 @@ const VideoPart = () => {
           </div>
         </div>
       </div>
-      {/* video end  */}
     </>
   );
 };

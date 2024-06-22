@@ -76,7 +76,6 @@ const TestimonialsUi = () => {
               How Clients React
             </p>
           </div>
-          {/* Card  */}
           <div className="pt-16">
             <Slider {...settings}>
               {testimoniData.slice(0, 3).map((teData) => {

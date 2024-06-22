@@ -1,7 +1,4 @@
 import FooterBar from "./FooterBar";
-// import NavBar from "./NavBar";
-// import TopBar from "./TopBar";
-
 const Layout = ({ children }) => {
   return (
     <>

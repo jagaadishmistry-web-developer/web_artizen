@@ -80,7 +80,6 @@ const FaqCom = () => {
               How Clients React
             </p>
           </div>
-          {/* Card  */}
           <div className="py-16 ">
             <Slider {...settings}>
               {testimoniData.slice(0, 3).map((teData) => {

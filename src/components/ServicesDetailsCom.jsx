@@ -44,12 +44,8 @@ const ServicesDetailsCom = () => {
           </div>
         </div>
       </div>
-      {/* -------------------------------------------------  */}
-
       <div className="container mx-auto px-7 2xl:py-[95px] xl:py-[85px] lg:py-[65px] py-[65px]">
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
-          {/* Col Span 1 */}
-          {/* ---------- Our Services ----------- */}
           <div className="lg:col-span-1 font-medium flex flex-col gap-4">
             <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
               Our Services
@@ -73,8 +69,6 @@ const ServicesDetailsCom = () => {
                 );
               })}
             </div>
-            {/* ---------- Our Services  end----------- */}
-            {/* ---------- Contact Info ----------- */}
             <div className="flex flex-col gap-4 pt-4">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Contact Info
@@ -104,8 +98,6 @@ const ServicesDetailsCom = () => {
                 </div>
               </div>
             </div>
-            {/* ---------- Contact Info end ----------- */}
-            {/* ----------  Get In Touch ----------- */}
             <div className="pt-6 flex flex-col gap-5 xl:text-[14px] lg:text-[12px] text-[14px]">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Get In Touch
@@ -130,9 +122,7 @@ const ServicesDetailsCom = () => {
                 Submit
               </button>
             </div>
-            {/* ----------  Get In Touch end ----------- */}
           </div>
-          {/* Col Span 2 */}
           <div className="lg:col-span-2 flex flex-col gap-1">
             <Image
               src={"/servicesDetailsImg.png"}
@@ -249,7 +239,6 @@ const ServicesDetailsCom = () => {
                 Expert Team
               </p>
             </div>
-            {/* Expart Team  */}
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:pt-[60px] xl:pt-[50px] pt-[40px] gap-5">
               {SortTeamData2.slice(0, 3).map((sortTData) => {
                 return (
@@ -284,7 +273,6 @@ const ServicesDetailsCom = () => {
                 );
               })}
             </div>
-            {/* Arrow  */}
             <div className="xl:pt-20 lg:pt-16 pt-14 flex justify-between xl:text-[15px] lg:text-[13px] md:text-[14px] text-[12px] font-medium">
               <div className="flex gap-2 items-center hover:text-[#5A12F6] duration-300 cursor-pointer">
                 <div className="">

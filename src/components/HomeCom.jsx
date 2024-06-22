@@ -13,7 +13,6 @@ import home2 from "../../public/home2.png";
 const HomeCom = () => {
   return (
     <>
-      {/*======= Home View Part ======= */}
       <div className="bg-[url('/homeImg.png')] lg:bg-cover lg:bg-center 2xl:h-[825px] xl:h-[680px] lg:h-[500px] md:h-[750px] h-[730px] flex lg:items-center lg:justify-start justify-center">
         <div className="container mx-auto px-7 text-center lg:text-start lg:mt-0 mt-20">
           <div className="text-white flex flex-col xl:gap-8 gap-6 lg:items-start items-center">
@@ -42,7 +41,6 @@ const HomeCom = () => {
           </div>
         </div>
       </div>
-      {/*======= Home View Part End ======= */}
       <div className="container mx-auto px-7">
         <div className="grid lg:grid-cols-2 xl:py-[100px] py-[70px] place-content-center 2xl:gap-6 xl:gap-11 lg:gap-9 gap-20">
           <div className="col-span-1 flex items-center justify-center">

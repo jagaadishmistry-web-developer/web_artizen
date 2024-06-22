@@ -15,7 +15,6 @@ const OurPricingUi = () => {
               Our Pricing Plan
             </p>
           </div>
-          {/* Card  */}
           <div className="2xl:mt-[70px] mt-16 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-8 gap-6">
             {PriceData.map((priceData) => {
               return (

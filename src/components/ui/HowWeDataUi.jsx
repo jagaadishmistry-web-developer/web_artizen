@@ -11,7 +11,6 @@ const HowWeDataUi = () => {
           sectionName="Artificial Intelligence"
           sectionName1="Professionals Services"
         />
-
         <div className="grid md:grid-cols-2 grid-cols-1 pt-[70px] xl:gap-8 gap-10">
           {HowWeData.map((howData) => {
             return (
@@ -24,7 +23,6 @@ const HowWeDataUi = () => {
                     alt="image"
                     className="2xl:h-64 xl:h-52 lg:h-44 h-full w-full"
                   />
-
                   <div className="lg:pt-8 pt-5">
                     <p className="2xl:text-[28px] xl:text-[22px] lg:text-[19px] md:text-[22px] text-[20px] font-semibold">
                       {howData.name}

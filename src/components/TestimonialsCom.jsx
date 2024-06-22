@@ -19,8 +19,6 @@ const TestimonialsCom = () => {
               How Clients React
             </p>
           </div>
-
-          {/* Card  */}
           <div className="py-16 grid lg:grid-cols-3 xl:gap-8 gap-6">
             {testimoniData.map((teData) => {
               return (

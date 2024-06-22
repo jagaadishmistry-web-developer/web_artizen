@@ -11,7 +11,6 @@ const CountingPart = () => {
   const [counting, setCounting] = useState(false);
   return (
     <>
-      {/* =========== Counting Part Start ========== */}
       <ScrollTrigger
         onEnter={() => setCounting(true)}
         onExit={() => setCounting(false)}>
@@ -86,7 +85,6 @@ const CountingPart = () => {
           </div>
         </div>
       </ScrollTrigger>
-      {/* =========== Counting Part End ========== */}
     </>
   );
 };

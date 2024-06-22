@@ -12,7 +12,6 @@ const OurSortTeam = () => {
           sectionName1="With Smart Solutions"
           sectionName="Our Certified Scientists"
         />
-        {/* Card  */}
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-[70px] xl:gap-8 gap-6">
           {SortTeamData2.slice(0, 3).map((teamCardData) => {
             return (

@@ -57,10 +57,8 @@ const BlogDetailsCom = () => {
           </div>
         </div>
       </div>
-      {/* -------------------------------------------------  */}
       <div className="container mx-auto px-7 2xl:py-[95px] xl:py-[85px] lg:py-[65px] py-[65px]">
         <div className="grid lg:grid-cols-7 grid-cols-1 gap-6">
-          {/* Col Span 1 */}
           <div className="lg:col-span-2 font-medium flex flex-col gap-4">
             <div className="flex justify-between 2xl:h-[55px] xl:h-[50px] lg:h-[45px] md:h-[55px] h-[45px] border border-[#5A12F6]">
               <input
@@ -89,8 +87,6 @@ const BlogDetailsCom = () => {
                 );
               })}
             </div>
-
-            {/* Recent News */}
             <div className="flex flex-col gap-4 lg:pt-4 pt-8">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Recent News
@@ -122,7 +118,6 @@ const BlogDetailsCom = () => {
                 );
               })}
             </div>
-            {/* Tags  */}
             <div className="lg:pt-4 pt-8 flex flex-col gap-5 lg:text-[12px] text-[13px]">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Tags
@@ -139,7 +134,6 @@ const BlogDetailsCom = () => {
                 })}
               </div>
             </div>
-            {/* Instagram  */}
             <div className="lg:pt-4 pt-8 flex flex-col gap-5 xl:text-[14px] lg:text-[12px] text-[14px]">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Instagram
@@ -157,7 +151,6 @@ const BlogDetailsCom = () => {
                 })}
               </div>
             </div>
-            {/* Follow Us  */}
             <div className="pt-6 flex flex-col gap-5 xl:text-[14px] lg:text-[12px] text-[14px]">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
                 Follow Us
@@ -178,7 +171,6 @@ const BlogDetailsCom = () => {
               </div>
             </div>
           </div>
-          {/* Col Span 2 */}
           <div className="lg:col-span-5 flex flex-col gap-1">
             <div className="relative">
               <div className="absolute  flex gap-1 items-center bg-[#5A12F6] text-white px-2 py-1 xl:text-[15px] text-[13px] 2xl:top-6 xl:top-4 lg:top-3 md:top-3 top-2 2xl:left-6 xl:left-4 lg:left-3 md:left-3 left-2">
@@ -243,7 +235,6 @@ const BlogDetailsCom = () => {
               <Image src={bdd1} className="h-full w-full" alt="image5" />
               <Image src={bdd2} className="h-full w-full" alt="image6" />
             </div>
-            {/* ----  Item Text Line ----  */}
             <div className="pt-9 flex flex-col gap-[18px] 2xl:text-[16px] xl:text-[15px] lg:text-[13px] md:text-[16px] text-[14px]">
               {ItemTextData.map((textData) => {
                 return (
@@ -258,7 +249,6 @@ const BlogDetailsCom = () => {
                 );
               })}
             </div>
-            {/* Popular Tag  */}
             <div className="">
               <p className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl font-semibold pt-9">
                 Popular Tag
@@ -278,12 +268,10 @@ const BlogDetailsCom = () => {
                 </div>
               </div>
             </div>
-            {/* Related Posts  */}
             <div className="">
               <p className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl font-semibold pt-9">
                 Related Posts
               </p>
-              {/* ----  */}
               <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:gap-5 xl:gap-4 lg:gap-3 md:gap-4 gap-6 pt-9">
                 {BlogData.slice(0, 3).map((blData) => {
                   return (
@@ -337,7 +325,6 @@ const BlogDetailsCom = () => {
                 })}
               </div>
             </div>
-            {/* Comment  */}
             <div className="">
               <p className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl font-semibold pt-9">
                 2 Comment
@@ -377,7 +364,6 @@ const BlogDetailsCom = () => {
                   </div>
                 </div>
               </div>
-              {/* comment Reply  */}
               <div className="pt-5">
                 <div className="pt-9 grid xl:grid-cols-8 grid-cols-12 gap-3 xl:gap-0">
                   <div className="col-span-1"></div>
@@ -417,8 +403,6 @@ const BlogDetailsCom = () => {
                 </div>
               </div>
             </div>
-            {/* Comment end  */}
-            {/* Leave a Comment  */}
             <div className="pt-11">
               <p className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl font-semibold">
                 Leave a Comment
@@ -471,7 +455,6 @@ const BlogDetailsCom = () => {
                 </div>
               </div>
             </div>
-            {/* Leave a Comment end  */}
           </div>
         </div>
       </div>

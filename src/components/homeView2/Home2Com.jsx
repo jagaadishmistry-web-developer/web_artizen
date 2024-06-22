@@ -30,7 +30,6 @@ const Home2Com = () => {
             <p>Latest News's And Posts </p>
           </div>
         </div>
-        {/* Blog Card  */}
         <div className="xl:pt-[80px] lg:pt-[70px] md:pt-[50px] pt-[50px]">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-8 gap-6">
             {BlogData.slice(0, 3).map((blData) => {

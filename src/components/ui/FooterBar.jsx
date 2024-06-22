@@ -40,10 +40,8 @@ const FooterBar = () => {
               </div>
             </div>
           </div>
-          {/* Footer Items  */}
           <div className="xl:py-[70px] py-[50px] text-white">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:place-items-start place-items-center 2xl:gap-10 xl:gap-8 lg:gap-5 md:gap-14 gap-12">
-              {/* Col 1  */}
               <div className="flex flex-col gap-10 md:items-start md:text-start items-center text-center">
                 <Image
                   src={"/footerLogo.png"}
@@ -53,12 +51,10 @@ const FooterBar = () => {
                   priority
                   alt="image"
                 />
-
                 <p className="2xl:text-[16px] xl:text-[15px] lg:text-[14px] md:text-[15px] text-[14px]">
                   Take your experience to a whole new level! Combine your talent
                   as a designer with our software's agile.
                 </p>
-
                 <div className="flex mr-3">
                   <div className="group block">
                     <button className="bg-[url('/buttomBg.png')] bg-cover bg-center group-hover:scale-110 duration-300">
@@ -82,7 +78,6 @@ const FooterBar = () => {
                   </div>
                 </div>
               </div>
-              {/* Col 2  */}
               <div className="flex flex-col gap-6">
                 <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[26px] text-[24px] font-semibold">
                   Useful Links
@@ -120,7 +115,6 @@ const FooterBar = () => {
                   </div>
                 </div>
               </div>
-              {/* Col 3  */}
               <div className="flex flex-col gap-6">
                 <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[26px] text-[24px] font-semibold">
                   Our Servicers
@@ -158,7 +152,6 @@ const FooterBar = () => {
                   </div>
                 </div>
               </div>
-              {/* Col 4 */}
               <div className="flex flex-col gap-4">
                 <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[26px] text-[24px] font-semibold">
                   Contact Information

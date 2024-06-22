@@ -1,7 +1,6 @@
 import { ServicesData } from "@/utils/OurServicesData";
 import Image from "next/image";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import CountingPart from "./CountingPart";
 import Link from "next/link";
 import Head2 from "./Head2";
 
@@ -14,8 +13,6 @@ const OurServicesUi = () => {
           sectionName="Artificial Intelligence"
           sectionName1="Powered Solutions"
         />
-
-        {/* --------  */}
         <div className="pt-[70px]">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:gap-8 gap-6">
             {ServicesData.map((sData) => {
@@ -55,7 +52,6 @@ const OurServicesUi = () => {
           </div>
         </div>
       </div>
-      {/* --------  */}
     </>
   );
 };

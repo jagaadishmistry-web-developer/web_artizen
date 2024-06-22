@@ -33,7 +33,6 @@ const ImageModel = ({ galleryImages }) => {
           </div>
         </div>
       )}
-      {/* image  */}
       <div className="grid lg:gap-5 gap-10 grid-cols-1 lg:grid-cols-4 md:grid-cols-2 font-serif xl:pt-[120px] xl:pb-10 pt-[60px] relative">
         {galleryImages &&
           galleryImages.map((slide, index) => {
@@ -51,9 +50,7 @@ const ImageModel = ({ galleryImages }) => {
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent group-hover:from-black/80 group-hover:via-black/80 group-hover:to-black/80"></div>
-                <button
-                  // onClick={() => setOpenImage(true)}
-                  className="absolute group-hover:duration-500 inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all ">
+                <button className="absolute group-hover:duration-500 inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all ">
                   <FiMove
                     onClick={() => handleOpenModle(index)}
                     className="text-white xl:text-5xl md:text-3xl text-2xl"
@@ -63,7 +60,6 @@ const ImageModel = ({ galleryImages }) => {
             );
           })}
       </div>
-      {/* image end  */}
     </>
   );
 };
