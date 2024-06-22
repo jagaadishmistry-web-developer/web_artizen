@@ -34,7 +34,7 @@ const ContactUi = () => {
           <div className="text-white flex flex-col 2xl:gap-[72px] xl:gap-16 lg:gap-14 gap-14 items-center">
             <div className="grid lg:grid-cols-2 grid-cols-1 w-full 2xl:gap-14 xl:gap-10 gap-6">
               <div className="flex lg:justify-start justify-center">
-                <Image src={contact1} className="w-full" alt="" />
+                <Image src={contact1} className="w-full" alt="image" />
               </div>
               <div className="flex flex-col 2xl:gap-10 xl:gap-9 lg:gap-6 gap-8 xl:text-[16px] lg:text-[13px] md:text-[15px] text-[13px]">
                 <div className="flex flex-col items-center xl:gap-6 lg:gap-3 gap-5">

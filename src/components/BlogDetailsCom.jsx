@@ -100,7 +100,11 @@ const BlogDetailsCom = () => {
                   <div key={recentData.id} className="flex flex-col gap-6">
                     <div className="grid grid-cols-12 2xl:gap-6 xl:gap-5 lg:gap-3 md:gap-6 gap-4">
                       <div className="col-span-3">
-                        <Image src={recentData.img} alt="" className="w-full" />
+                        <Image
+                          src={recentData.img}
+                          alt="image2"
+                          className="w-full"
+                        />
                       </div>
                       <div className="col-span-9 flex flex-col lg:justify-between">
                         <p className="2xl:text-[17px] xl:text-[15px] lg:text-[13px] md:text-[18px] text-[14px] hover:text-[#5A12F6]">
@@ -146,7 +150,7 @@ const BlogDetailsCom = () => {
                     <Image
                       key={inData.id}
                       src={inData.img}
-                      alt=""
+                      alt="image3"
                       className="w-full"
                     />
                   );
@@ -219,7 +223,7 @@ const BlogDetailsCom = () => {
                   dictum vehicula. Nulla ac mi adipiscing, elementum ligula at,
                   ultrices mauris. Nullam nec tortor mauris
                 </p>
-                <Image src={testimoniUserImg1} alt="" />
+                <Image src={testimoniUserImg1} alt="image4" />
                 <p className="2xl:text-[18px] xl:text-[17px] lg:text-[15px] md:text-[18px] text-[16px] font-medium">
                   John Anderson
                 </p>
@@ -236,8 +240,8 @@ const BlogDetailsCom = () => {
               Into Improving The Customer Experience.
             </p>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-6 pt-9">
-              <Image src={bdd1} className="h-full w-full" alt="" />
-              <Image src={bdd2} className="h-full w-full" alt="" />
+              <Image src={bdd1} className="h-full w-full" alt="image5" />
+              <Image src={bdd2} className="h-full w-full" alt="image6" />
             </div>
             {/* ----  Item Text Line ----  */}
             <div className="pt-9 flex flex-col gap-[18px] 2xl:text-[16px] xl:text-[15px] lg:text-[13px] md:text-[16px] text-[14px]">
@@ -254,7 +258,6 @@ const BlogDetailsCom = () => {
                 );
               })}
             </div>
-
             {/* Popular Tag  */}
             <div className="">
               <p className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl font-semibold pt-9">
@@ -286,7 +289,11 @@ const BlogDetailsCom = () => {
                   return (
                     <div key={blData.id} className="h-auto group block">
                       <div className="relative">
-                        <Image src={blData.img} alt="" className="w-full" />
+                        <Image
+                          src={blData.img}
+                          alt="image"
+                          className="w-full"
+                        />
                         <div className="absolute flex gap-1 items-center bg-[#5A12F6] text-white px-2 py-1 xl:text-[15px] bottom-4 2xl:left-4 xl:left-4 lg:left-3 md:left-3 left-2 text-[14px]">
                           <span>
                             <CgCalendarDates />
@@ -337,7 +344,7 @@ const BlogDetailsCom = () => {
               </p>
               <div className="pt-9 grid xl:grid-cols-8 grid-cols-12 gap-3 xl:gap-0">
                 <div className="xl:col-span-1 md:col-span-2 col-span-3">
-                  <Image src={comment1} alt="" />
+                  <Image src={comment1} alt="image" />
                 </div>
                 <div className="xl:col-span-7 md:col-span-10 col-span-9 flex flex-col gap-2 2xl:text-[14px] xl:text-[13px] lg:text-[12px] md:text-[13px] text-[10px]">
                   <div className="flex justify-between ">
@@ -375,7 +382,7 @@ const BlogDetailsCom = () => {
                 <div className="pt-9 grid xl:grid-cols-8 grid-cols-12 gap-3 xl:gap-0">
                   <div className="col-span-1"></div>
                   <div className="xl:col-span-1 md:col-span-2 col-span-3">
-                    <Image src={comment2} alt="" />
+                    <Image src={comment2} alt="image" />
                   </div>
                   <div className="xl:col-span-6 md:col-span-9 col-span-8 flex flex-col gap-2 2xl:text-[14px] xl:text-[13px] lg:text-[12px] md:text-[13px] text-[10px]">
                     <div className="flex justify-between ">

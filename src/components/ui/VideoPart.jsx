@@ -24,7 +24,7 @@ const VideoPart = () => {
                 height={500}
                 width={500}
                 className="2xl:h-[560px] 2xl:w-[600px]"
-                alt=""
+                alt="image"
               />
             </div>
             <div className="flex items-center justify-center md:h-full h-[200px] w-full">

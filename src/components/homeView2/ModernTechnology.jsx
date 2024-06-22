@@ -15,7 +15,7 @@ const ModernTechnology = () => {
         <div className="container mx-auto px-7 xl:pb-[100px] pt-[0px]">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-[60px]">
             <div className="col-span-1">
-              <Image src={home2img} className="w-full" alt="" />
+              <Image src={home2img} className="w-full" alt="image" />
             </div>
             <div className="col-span-1 flex lg:justify-start justify-center">
               <div className="flex flex-col xl:w-[620px] lg:w-full md:w-[500px]">
@@ -48,7 +48,7 @@ const ModernTechnology = () => {
                               <Image
                                 src={h2Data.img}
                                 className="col-span-2 2xl:h-[70px] xl:h-[55px] lg:h-[40px] md:h-[45px] h-[50px] 2xl:w-[55px] xl:w-[50px] lg:w-[40px] md:w-[45px] w-[50px]"
-                                alt=""
+                                alt="image"
                               />
                               <div className="col-span-6">
                                 <div className="2xl:text-[46px] xl:text-[38px] lg:text-[27px] md:text-[36px] text-[32px] font-semibold text-[#5A12F6]">

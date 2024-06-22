@@ -8,7 +8,7 @@ const TeamCard = ({ img, name, skills }) => {
         <Image
           src={img}
           className="2xl:h-[470px] w-full border-b-[2px]"
-          alt=""
+          alt="image"
         />
         <div className="flex flex-col items-center xl:py-10 py-6 text-white gap-1 bg-[#0C0E1A]">
           <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[22px] font-semibold">

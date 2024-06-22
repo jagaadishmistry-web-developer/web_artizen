@@ -74,7 +74,6 @@ const ServicesDetailsCom = () => {
               })}
             </div>
             {/* ---------- Our Services  end----------- */}
-
             {/* ---------- Contact Info ----------- */}
             <div className="flex flex-col gap-4 pt-4">
               <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[20px]">
@@ -140,7 +139,7 @@ const ServicesDetailsCom = () => {
               height={500}
               width={500}
               className="2xl:h-[620px] xl:h-[580px] lg:h-[470px] w-full"
-              alt=""
+              alt="image"
             />
             <p className="2xl:text-[46px] xl:text-[44px] lg:text-[40px] md:text-[40px] text-[32px] font-semibold xl:pt-7 pt-4">
               Data Analytics
@@ -178,7 +177,7 @@ const ServicesDetailsCom = () => {
                         height={500}
                         width={500}
                         className="2xl:h-[40px] xl:h-[32px] lg:h-[25px] md:h-[40px] h-[20px] 2xl:w-[40px] xl:w-[32px] lg:w-[25px] md:w-[40px] w-[20px]"
-                        alt=""
+                        alt="image"
                       />
                     </div>
                   </div>
@@ -200,7 +199,7 @@ const ServicesDetailsCom = () => {
                         height={500}
                         width={500}
                         className="2xl:h-[40px] xl:h-[32px] lg:h-[25px] md:h-[40px] h-[20px] 2xl:w-[40px] xl:w-[32px] lg:w-[25px] md:w-[40px] w-[20px]"
-                        alt=""
+                        alt="image"
                       />
                     </div>
                   </div>
@@ -222,7 +221,7 @@ const ServicesDetailsCom = () => {
                         height={500}
                         width={500}
                         className="2xl:h-[40px] xl:h-[32px] lg:h-[25px] md:h-[40px] h-[20px] 2xl:w-[40px] xl:w-[32px] lg:w-[25px] md:w-[40px] w-[20px]"
-                        alt=""
+                        alt="image"
                       />
                     </div>
                   </div>
@@ -243,7 +242,7 @@ const ServicesDetailsCom = () => {
                   height={500}
                   width={500}
                   className="w-full border-4 border-[#5A12F6]"
-                  alt=""
+                  alt="image"
                 />
               </div>
               <p className="2xl:text-[46px] xl:text-[44px] lg:text-[40px] md:text-[40px] text-[32px] font-semibold">
@@ -260,7 +259,7 @@ const ServicesDetailsCom = () => {
                     <Image
                       src={sortTData.img}
                       className="w-full border-b-[2px]"
-                      alt=""
+                      alt="image"
                     />
                     <div className="flex flex-col items-center 2xl:py-6 xl:py-4 lg:py-3 md:py-3 py-3 text-white gap-1 bg-[#0C0E1A]">
                       <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] text-[22px] font-semibold">

@@ -21,7 +21,7 @@ const HowWeDataUi = () => {
                 <div className="flex lg:flex-row flex-col items-center justify-center 2xl:gap-7 xl:gap-8 lg:gap-6 md:gap-7">
                   <Image
                     src={howData.img}
-                    alt=""
+                    alt="image"
                     className="2xl:h-64 xl:h-52 lg:h-44 h-full w-full"
                   />
 
@@ -34,7 +34,7 @@ const HowWeDataUi = () => {
                     </p>
                     <div className="w-full flex justify-end 2xl:pt-4 py-3 2xl:py-0">
                       <div className=" group-hover:bg-white px-[3px] rounded-full">
-                        <Image src={howData.icon} alt="" />
+                        <Image src={howData.icon} alt="image" />
                       </div>
                     </div>
                   </div>

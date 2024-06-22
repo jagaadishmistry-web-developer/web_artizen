@@ -26,7 +26,7 @@ const ImageModel = ({ galleryImages }) => {
             />
             <Image
               src={galleryImages[slideNumber].img}
-              alt=""
+              alt="image"
               height={500}
               width={500}
             />

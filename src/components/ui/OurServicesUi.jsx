@@ -23,7 +23,7 @@ const OurServicesUi = () => {
                 <Link key={sData.id} href={"/servicesDetails"}>
                   <div className="group block">
                     <div className="">
-                      <Image src={sData.img} alt="" className="w-full" />
+                      <Image src={sData.img} alt="image" className="w-full" />
                     </div>
                     <div className="border border-[#5A12F6] 2xl:px-6 xl:px-5 lg:px-3 md:px-5 px-3 2xl:py-7 xl:py-6 lg:py-4 md:py-6 py-4 flex flex-col 2xl:gap-5 xl:gap-4 lg:gap-3 md:gap-4 gap-3">
                       <p className="2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[22px] text-[18px] font-semibold group-hover:text-[#5A12F6]">
@@ -44,7 +44,7 @@ const OurServicesUi = () => {
                           height={500}
                           width={500}
                           className="2xl:h-[30px] xl:h-[22px] lg:h-[16px] md:h-[28px] h-[20px] 2xl:w-[30px] xl:w-[22px] lg:w-[16px] md:w-[28px] w-[20px]"
-                          alt=""
+                          alt="image"
                         />
                       </div>
                     </div>

@@ -20,7 +20,7 @@ const CountingPart = () => {
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-0 gap-10 place-items-center w-full 2xl:h-[270px] xl:h-[250px] lg:h-[200px] md:h-[380px] h-full md:py-0 py-16">
               <div className="h-full w-full flex md:items-center lg:justify-center">
                 <div className="flex gap-5 items-center">
-                  <Image src={count1} alt="" />
+                  <Image src={count1} alt="image" />
                   <div className="">
                     <div className="2xl:text-[46px] xl:text-[42px] lg:text-[30px] md:text-[36px] text-[32px] font-semibold">
                       {counting && (
@@ -29,14 +29,14 @@ const CountingPart = () => {
                       +
                     </div>
                     <div className="2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[24px] text-[24px]">
-                      Happy Clients
+                      Happy Clientsimage
                     </div>
                   </div>
                 </div>
               </div>
               <div className="lg:border-l border-[#2C2F3A] h-full w-full flex md:items-center lg:justify-center">
                 <div className="flex gap-5 items-center">
-                  <Image src={count2} alt="" />
+                  <Image src={count2} alt="image" />
                   <div className="">
                     <div className="2xl:text-[46px] xl:text-[42px] lg:text-[30px] md:text-[36px] text-[32px]">
                       {counting && (
@@ -52,7 +52,7 @@ const CountingPart = () => {
               </div>
               <div className="lg:border-l lg:border-r border-[#2C2F3A] h-full w-full flex md:items-center lg:justify-center">
                 <div className="flex gap-5 items-center">
-                  <Image src={count3} alt="" />
+                  <Image src={count3} alt="image" />
                   <div className="">
                     <div className="2xl:text-[46px] xl:text-[42px] lg:text-[30px] md:text-[36px] text-[32px]">
                       {counting && (
@@ -68,7 +68,7 @@ const CountingPart = () => {
               </div>
               <div className="lg:h-full w-full flex md:items-center lg:justify-center">
                 <div className="flex gap-5 items-center">
-                  <Image src={count4} alt="" />
+                  <Image src={count4} alt="image" />
                   <div className="">
                     <div className="2xl:text-[46px] xl:text-[42px] lg:text-[30px] md:text-[36px] text-[32px]">
                       {counting && (

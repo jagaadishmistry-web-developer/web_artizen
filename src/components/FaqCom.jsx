@@ -93,7 +93,7 @@ const FaqCom = () => {
                           height={500}
                           width={500}
                           className="border-[3px] border-[#5A12F6] rounded-full 2xl:h-[100px] xl:h-[80px] lg:h-[60px] md:h-[70px] h-[50px] 2xl:w-[100px] xl:w-[80px] lg:w-[60px] md:w-[70px] w-[50px]"
-                          alt=""
+                          alt="image"
                         />
                         <div className="flex flex-col justify-center">
                           <p className="2xl:text-[28px] xl:text-[25px] lg:text-[18px] md:text-[20px] text-[18px] font-semibold">
@@ -110,7 +110,7 @@ const FaqCom = () => {
                           height={500}
                           width={500}
                           className="xl:h-[20px] lg:h-[17px] h-[18px] xl:w-[120px] lg:w-[105px] w-[115px]"
-                          alt=""
+                          alt="image"
                         />
                       </div>
                       <div className="">

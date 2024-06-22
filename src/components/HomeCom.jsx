@@ -46,7 +46,7 @@ const HomeCom = () => {
       <div className="container mx-auto px-7">
         <div className="grid lg:grid-cols-2 xl:py-[100px] py-[70px] place-content-center 2xl:gap-6 xl:gap-11 lg:gap-9 gap-20">
           <div className="col-span-1 flex items-center justify-center">
-            <Image src={home2} alt="" />
+            <Image src={home2} alt="image" />
           </div>
           <div className="col-span-1 flex flex-col xl:gap-5 gap-3 items-center lg:items-start justify-center text-center lg:text-start">
             <p className="2xl:text-[28px] xl:text-[26px] lg:text-[22px] md:text-[24px] font-medium bg-gradient-to-r from-[#5A12F6] via-[#cbc0e1] lg:to-[#ffffff] to-[#5A12F6] px-2 py-1 xl:w-[445px]">

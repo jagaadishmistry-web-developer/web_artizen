@@ -22,7 +22,7 @@ const AboutCom = () => {
               width={500}
               className="2xl:h-[680px] xl:h-[580px] lg:h-[450px] w-full imageCustomize"
               priority
-              alt=""
+              alt="image1"
             />
           </div>
           <div className="col-span-1 flex flex-col xl:gap-5 lg:gap-3 gap-5 items-center lg:items-start justify-center text-center lg:text-start">
@@ -121,7 +121,7 @@ const AboutCom = () => {
               width={600}
               className="2xl:h-[580px] xl:h-[430px] 2xl:w-[630px] xl:w-[500px] imageCustomize"
               priority
-              alt=""
+              alt="image1"
             />
           </div>
         </div>

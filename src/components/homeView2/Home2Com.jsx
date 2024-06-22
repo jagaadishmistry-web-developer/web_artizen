@@ -38,7 +38,7 @@ const Home2Com = () => {
                 <Link href={"/blog"} key={blData.id}>
                   <div className="group block">
                     <div className="relative">
-                      <Image src={blData.img} className="w-full" alt="" />
+                      <Image src={blData.img} className="w-full" alt="image" />
                       <div className="absolute flex gap-1 bg-[#5A12F6] text-white px-2 py-1 xl:text-[15px] text-[13px] bottom-4 xl:left-8 left-3">
                         <span>
                           <CgCalendarDates />
@@ -71,7 +71,7 @@ const Home2Com = () => {
                                 <FaArrowRightLong />
                               </span>
                             </button>
-                            <Image src={userIcon} alt="" />
+                            <Image src={userIcon} alt="image" />
                           </div>
                         </div>
                       </div>

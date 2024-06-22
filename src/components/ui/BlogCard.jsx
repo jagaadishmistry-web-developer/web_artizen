@@ -14,7 +14,7 @@ const BlogCard = ({ img, name, description }) => {
             </span>
             <span>15 Jun 2023</span>
           </div>
-          <Image src={img} alt="" className="w-full" />
+          <Image src={img} alt="image" className="w-full" />
         </div>
         <div className="relative text-white">
           <div className="absolute -top-10 2xl:left-8 xl:left-6 lg:left-4 md:left-5 left-4 2xl:right-8 xl:right-6 lg:right-4 md:right-5 right-4 bg-[#0C0E1A]">

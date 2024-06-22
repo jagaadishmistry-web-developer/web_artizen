@@ -51,7 +51,7 @@ const FooterBar = () => {
                   width={500}
                   height={500}
                   priority
-                  alt=""
+                  alt="image"
                 />
 
                 <p className="2xl:text-[16px] xl:text-[15px] lg:text-[14px] md:text-[15px] text-[14px]">

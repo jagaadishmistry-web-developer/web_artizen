@@ -13,22 +13,22 @@ const IconPart = () => {
         <div className="container mx-auto px-7 lg:py-0 py-14">
           <div className="grid xl:grid-cols-6 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:h-[200px] xl:h-[180px] lg:h-[200px] md:h-[250px] lg:gap-0 gap-10">
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r xl:border-l">
-              <Image src={cIcon1} alt="" />
+              <Image src={cIcon1} alt="image" />
             </div>
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r">
-              <Image src={cIcon2} alt="" />
+              <Image src={cIcon2} alt="image" />
             </div>
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r">
-              <Image src={cIcon3} alt="" />
+              <Image src={cIcon3} alt="image" />
             </div>
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r">
-              <Image src={cIcon4} alt="" />
+              <Image src={cIcon4} alt="image" />
             </div>
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r">
-              <Image src={cIcon5} alt="" />
+              <Image src={cIcon5} alt="image" />
             </div>
             <div className="col-span-1 flex items-center justify-center border-[#5A12F6] lg:border-r">
-              <Image src={cIcon6} alt="" />
+              <Image src={cIcon6} alt="image" />
             </div>
           </div>
         </div>
