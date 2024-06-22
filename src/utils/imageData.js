@@ -1,4 +1,4 @@
-import home2Icon1 from "../../public/home2Icon1.png";
+import home2Icon1 from "../../public/Home2Icon1.png";
 import home2Icon2 from "../../public/homeTwoIcon2.png";
 import home2Icon3 from "../../public/home2Icon3.png";
 import home2Icon4 from "../../public/home2Icon4.png";
